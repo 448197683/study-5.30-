@@ -1,0 +1,22 @@
+body {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+}
+@media screen and (max-width: 400px) {
+  div {
+    background-color: palevioletred;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  div {
+    background-color: peru;
+  }
+}

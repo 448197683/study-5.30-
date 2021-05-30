@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 50px;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      background-color: cornflowerblue;
+    }
+
+
+    #btn {
+      margin-top: 10px;
+      width: 120px;
+      height: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box" id="box1" onclick="document.getElementById('box1').style.visibility='hidden'">NICAI</div>
+    <div class="box">XIAOYU</div>
+    <div class="box">MOYA</div>
+    <div class="box" id="box4">BAOZI</div>
+  </div>
+  <button id="btn" onclick="document.getElementById('box4').style.visibility ='hidden'">button</button>
+
+
+
+</body>
+
+</html>
